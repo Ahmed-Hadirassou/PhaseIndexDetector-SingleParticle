@@ -59,9 +59,4 @@ Two things worth resolving first, both documented in code where they occur:
    feature-partition indices (`SLOW_IDX` / `FAST_IDX`) are sized for the
    204-column set without it. Confirm this exclusion is intentional.
 
-## License
 
-Add a license before making this public if you haven't yet — an empty
-repo license field defaults to "all rights reserved," which blocks anyone
-(including PhD admissions committees skimming the code) from legally
-reusing or even running it.
