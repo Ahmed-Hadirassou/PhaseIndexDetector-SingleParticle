@@ -1,6 +1,0 @@
-tests/test_evaluation_metrics.py
-tests/test_labels.py
-tests/test_loss_and_dynamics.py
-tests/test_report_helpers.py
-tests/test_visualization.py
-.github/workflows/tests.yml
