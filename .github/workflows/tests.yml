@@ -1,1 +1,44 @@
+name: tests
 
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest
+
+      - name: Run test suite
+        run: pytest -v
+
+# Notes for future maintainers:
+#   - These tests never call yfinance.download() or train a model: they
+#     exercise the pure-function pieces (labels, loss, one physics step,
+#     report arithmetic, statistics, plotting) on synthetic or hand-picked
+#     inputs. That is a deliberate scope choice, not an oversight -- a full
+#     download-and-train run belongs in a manual/scheduled workflow, not on
+#     every push, both because it is slow and because Yahoo Finance rate-
+#     limits automated traffic.
+#   - If you add a step that does need real market data, gate it behind
+#     `workflow_dispatch` (manual trigger) rather than adding it here.
