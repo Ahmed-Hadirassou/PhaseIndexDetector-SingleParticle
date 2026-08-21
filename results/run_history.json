@@ -1,0 +1,27 @@
+{
+  "V30.3": {
+    "brier": 0.0684,
+    "cohens_d": 1.97,
+    "ece": 2.35,
+    "f1_calibrated": 71.39,
+    "log_loss": 0.2601,
+    "pr_auc": 0.7469,
+    "precision_calibrated": 67.6,
+    "recall_calibrated": 75.62,
+    "roc_auc": 0.9088
+  },
+  "V30.4": {
+    "brier": 0.0686488303201082,
+    "brier_proxy": 0.06833955148062948,
+    "cohens_d": 1.9349854218438383,
+    "ece": 2.8078584146467156,
+    "ece_proxy": 3.1684207279243544,
+    "f1_calibrated": 72.67080694892172,
+    "log_loss": 0.25861025737027515,
+    "log_loss_proxy": 0.25152032499088,
+    "pr_auc": 0.745140344860464,
+    "precision_calibrated": 72.22222221776406,
+    "recall_calibrated": 73.12499999542969,
+    "roc_auc": 0.9151603291713961
+  }
+}
