@@ -1,0 +1,234 @@
+{
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    1011
+  ],
+  "window": 20,
+  "folds": [
+    {
+      "fold": 1,
+      "n_test": 781,
+      "orientable": false,
+      "signals": {
+        "psi": {
+          "roc_auc": 0.8895198295640774,
+          "pr_auc": 0.820329753090953,
+          "transition_auc": 0.6352083333333334,
+          "sign_flipped": false
+        },
+        "flicker_var": {
+          "roc_auc": 0.7902409046214356,
+          "pr_auc": 0.6137512950425852,
+          "transition_auc": 0.67375,
+          "sign_flipped": false
+        },
+        "flicker_cross": {
+          "roc_auc": 0.6818420190101606,
+          "pr_auc": 0.40103403831618206,
+          "transition_auc": 0.5425,
+          "sign_flipped": true
+        },
+        "rk_turnover": {
+          "roc_auc": 0.7003154703375942,
+          "pr_auc": 0.40532842606150826,
+          "transition_auc": 0.44916666666666666,
+          "sign_flipped": true
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "n_test": 521,
+      "orientable": true,
+      "signals": {
+        "psi": {
+          "roc_auc": 0.9848484848484849,
+          "pr_auc": 0.9509451991181317,
+          "transition_auc": 0.9991666666666666,
+          "sign_flipped": false
+        },
+        "flicker_var": {
+          "roc_auc": 0.6332001332001331,
+          "pr_auc": 0.37663927573895634,
+          "transition_auc": 0.9816666666666666,
+          "sign_flipped": false
+        },
+        "flicker_cross": {
+          "roc_auc": 0.5817515817515817,
+          "pr_auc": 0.2561270721461828,
+          "transition_auc": 0.4116666666666666,
+          "sign_flipped": false
+        },
+        "rk_turnover": {
+          "roc_auc": 0.9532800532800533,
+          "pr_auc": 0.8637106512511097,
+          "transition_auc": 0.9958333333333333,
+          "sign_flipped": true
+        },
+        "ens_psi_flkvar": {
+          "roc_auc": 0.8326340326340326,
+          "pr_auc": 0.5372164288482386,
+          "transition_auc": 0.9966666666666666,
+          "sign_flipped": false
+        },
+        "ens_psi_rk_flk": {
+          "roc_auc": 0.9004162504162504,
+          "pr_auc": 0.5914630180951082,
+          "transition_auc": 1.0,
+          "sign_flipped": false
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "n_test": 520,
+      "orientable": false,
+      "signals": {
+        "psi": {
+          "roc_auc": 0.8476427282921359,
+          "pr_auc": 0.6964686116244048,
+          "transition_auc": 0.5466666666666666,
+          "sign_flipped": false
+        },
+        "flicker_var": {
+          "roc_auc": 0.7827994734532691,
+          "pr_auc": 0.501107839825355,
+          "transition_auc": 0.7016666666666667,
+          "sign_flipped": false
+        },
+        "flicker_cross": {
+          "roc_auc": 0.5503632197357515,
+          "pr_auc": 0.1254172146364153,
+          "transition_auc": 0.40875,
+          "sign_flipped": true
+        },
+        "rk_turnover": {
+          "roc_auc": 0.8555896835844181,
+          "pr_auc": 0.3169026211904502,
+          "transition_auc": 0.9966666666666667,
+          "sign_flipped": true
+        }
+      }
+    },
+    {
+      "fold": 4,
+      "n_test": 520,
+      "orientable": false,
+      "signals": {
+        "psi": {
+          "roc_auc": 0.8223534908556935,
+          "pr_auc": 0.3887875728414253,
+          "transition_auc": 0.745,
+          "sign_flipped": false
+        },
+        "flicker_var": {
+          "roc_auc": 0.7138900013349353,
+          "pr_auc": 0.23282916470201423,
+          "transition_auc": 0.6016666666666667,
+          "sign_flipped": false
+        },
+        "flicker_cross": {
+          "roc_auc": 0.520107462288079,
+          "pr_auc": 0.1594220579747757,
+          "transition_auc": 0.5483333333333333,
+          "sign_flipped": false
+        },
+        "rk_turnover": {
+          "roc_auc": 0.638516219463356,
+          "pr_auc": 0.17665639417157336,
+          "transition_auc": 0.6700000000000002,
+          "sign_flipped": true
+        }
+      }
+    },
+    {
+      "fold": 5,
+      "n_test": 521,
+      "orientable": true,
+      "signals": {
+        "psi": {
+          "roc_auc": 0.9478097622027535,
+          "pr_auc": 0.8843690942028427,
+          "transition_auc": 0.9214285714285714,
+          "sign_flipped": false
+        },
+        "flicker_var": {
+          "roc_auc": 0.818272841051314,
+          "pr_auc": 0.49285744306742596,
+          "transition_auc": 0.9971428571428571,
+          "sign_flipped": false
+        },
+        "flicker_cross": {
+          "roc_auc": 0.5070504797663746,
+          "pr_auc": 0.1093008215855848,
+          "transition_auc": 0.8571428571428571,
+          "sign_flipped": true
+        },
+        "rk_turnover": {
+          "roc_auc": 0.9848769294952023,
+          "pr_auc": 0.822652676889965,
+          "transition_auc": 1.0,
+          "sign_flipped": true
+        },
+        "ens_psi_flkvar": {
+          "roc_auc": 0.9063204005006258,
+          "pr_auc": 0.6614612272576096,
+          "transition_auc": 0.9928571428571429,
+          "sign_flipped": false
+        },
+        "ens_psi_rk_flk": {
+          "roc_auc": 0.9621193158114311,
+          "pr_auc": 0.814055014638566,
+          "transition_auc": 0.9971428571428571,
+          "sign_flipped": false
+        }
+      }
+    },
+    {
+      "fold": 6,
+      "n_test": 520,
+      "orientable": true,
+      "signals": {
+        "psi": {
+          "roc_auc": 0.8694836938324516,
+          "pr_auc": 0.7806072852840041,
+          "transition_auc": 0.9125,
+          "sign_flipped": false
+        },
+        "flicker_var": {
+          "roc_auc": 0.9065827362217906,
+          "pr_auc": 0.729796607100386,
+          "transition_auc": 0.7925,
+          "sign_flipped": false
+        },
+        "flicker_cross": {
+          "roc_auc": 0.6209848434116834,
+          "pr_auc": 0.2891274460030202,
+          "transition_auc": 0.8533333333333334,
+          "sign_flipped": true
+        },
+        "rk_turnover": {
+          "roc_auc": 0.8822071921248242,
+          "pr_auc": 0.8110517220323923,
+          "transition_auc": 0.7433333333333334,
+          "sign_flipped": true
+        },
+        "ens_psi_flkvar": {
+          "roc_auc": 0.9223420165628697,
+          "pr_auc": 0.7386743066294337,
+          "transition_auc": 0.8645833333333334,
+          "sign_flipped": false
+        },
+        "ens_psi_rk_flk": {
+          "roc_auc": 0.9698988816714658,
+          "pr_auc": 0.896448982916978,
+          "transition_auc": 0.8566666666666667,
+          "sign_flipped": false
+        }
+      }
+    }
+  ]
+}

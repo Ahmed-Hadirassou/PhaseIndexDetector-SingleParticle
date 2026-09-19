@@ -1,0 +1,329 @@
+{
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    1011
+  ],
+  "folds": [
+    {
+      "fold": 1,
+      "n_test": 781,
+      "low_friction_fraction": 0.0,
+      "orientable": false,
+      "signals": {
+        "psi": {
+          "roc_auc": 0.8860045886594559,
+          "pr_auc": 0.8126199819173642,
+          "transition_auc": 0.6352083333333334,
+          "sign_flipped": false
+        },
+        "fdt": {
+          "roc_auc": 0.564110127826942,
+          "pr_auc": 0.3140506341439782,
+          "transition_auc": 0.54375,
+          "sign_flipped": true
+        },
+        "rk_crude": {
+          "roc_auc": 0.6726319239593577,
+          "pr_auc": 0.36668201337945977,
+          "transition_auc": 0.42812500000000003,
+          "sign_flipped": true
+        },
+        "rk_spatial": {
+          "roc_auc": 0.6714765650606358,
+          "pr_auc": 0.3661217190903672,
+          "transition_auc": 0.42895833333333333,
+          "sign_flipped": true
+        },
+        "rk_energy": {
+          "roc_auc": 0.6740331039003605,
+          "pr_auc": 0.3675124463940735,
+          "transition_auc": 0.4291666666666667,
+          "sign_flipped": true
+        },
+        "rk_turnover": {
+          "roc_auc": 0.674664044575549,
+          "pr_auc": 0.3753034468367673,
+          "transition_auc": 0.43,
+          "sign_flipped": true
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "n_test": 521,
+      "low_friction_fraction": 0.0,
+      "orientable": true,
+      "signals": {
+        "psi": {
+          "roc_auc": 0.9848151848151849,
+          "pr_auc": 0.9513000815679596,
+          "transition_auc": 0.9991666666666666,
+          "sign_flipped": false
+        },
+        "fdt": {
+          "roc_auc": 0.9007992007992008,
+          "pr_auc": 0.8343197600492157,
+          "transition_auc": 0.8941666666666667,
+          "sign_flipped": false
+        },
+        "rk_crude": {
+          "roc_auc": 0.9543123543123543,
+          "pr_auc": 0.8632707030370729,
+          "transition_auc": 0.9966666666666667,
+          "sign_flipped": true
+        },
+        "rk_spatial": {
+          "roc_auc": 0.9543456543456543,
+          "pr_auc": 0.8648884672779716,
+          "transition_auc": 0.9966666666666667,
+          "sign_flipped": true
+        },
+        "rk_energy": {
+          "roc_auc": 0.9658674658674659,
+          "pr_auc": 0.8916301105289657,
+          "transition_auc": 0.9991666666666666,
+          "sign_flipped": true
+        },
+        "rk_turnover": {
+          "roc_auc": 0.9545454545454546,
+          "pr_auc": 0.8652902695178344,
+          "transition_auc": 0.9966666666666667,
+          "sign_flipped": true
+        },
+        "ens_psi_fdt": {
+          "roc_auc": 0.9766400266400266,
+          "pr_auc": 0.9209262763188808,
+          "transition_auc": 0.9445833333333333,
+          "sign_flipped": false
+        },
+        "ens_psi_rk": {
+          "roc_auc": 0.9737928737928738,
+          "pr_auc": 0.9116994156534425,
+          "transition_auc": 1.0,
+          "sign_flipped": false
+        },
+        "ens_all3": {
+          "roc_auc": 0.9758408258408259,
+          "pr_auc": 0.9182757352781097,
+          "transition_auc": 0.9758333333333334,
+          "sign_flipped": false
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "n_test": 520,
+      "low_friction_fraction": 0.0,
+      "orientable": false,
+      "signals": {
+        "psi": {
+          "roc_auc": 0.8476914826190824,
+          "pr_auc": 0.6964867121716983,
+          "transition_auc": 0.5475,
+          "sign_flipped": false
+        },
+        "fdt": {
+          "roc_auc": 0.7980595777875287,
+          "pr_auc": 0.5915814750661843,
+          "transition_auc": 0.6783333333333333,
+          "sign_flipped": false
+        },
+        "rk_crude": {
+          "roc_auc": 0.8528594412754131,
+          "pr_auc": 0.3024279698074651,
+          "transition_auc": 0.9966666666666667,
+          "sign_flipped": true
+        },
+        "rk_spatial": {
+          "roc_auc": 0.8546145970454877,
+          "pr_auc": 0.3059234011542228,
+          "transition_auc": 0.9975,
+          "sign_flipped": true
+        },
+        "rk_energy": {
+          "roc_auc": 0.8590512407976207,
+          "pr_auc": 0.34206464822881255,
+          "transition_auc": 0.9933333333333334,
+          "sign_flipped": true
+        },
+        "rk_turnover": {
+          "roc_auc": 0.855199648968846,
+          "pr_auc": 0.3203883782634074,
+          "transition_auc": 0.9975,
+          "sign_flipped": true
+        }
+      }
+    },
+    {
+      "fold": 4,
+      "n_test": 520,
+      "low_friction_fraction": 0.0,
+      "orientable": false,
+      "signals": {
+        "psi": {
+          "roc_auc": 0.8221866239487385,
+          "pr_auc": 0.388442636247264,
+          "transition_auc": 0.745,
+          "sign_flipped": false
+        },
+        "fdt": {
+          "roc_auc": 0.7885128821252169,
+          "pr_auc": 0.3888136743453269,
+          "transition_auc": 0.9816666666666667,
+          "sign_flipped": false
+        },
+        "rk_crude": {
+          "roc_auc": 0.632425577359498,
+          "pr_auc": 0.17033110995802545,
+          "transition_auc": 0.6691666666666667,
+          "sign_flipped": true
+        },
+        "rk_spatial": {
+          "roc_auc": 0.6346282205313042,
+          "pr_auc": 0.1713795958277732,
+          "transition_auc": 0.6708333333333333,
+          "sign_flipped": true
+        },
+        "rk_energy": {
+          "roc_auc": 0.6679348551595248,
+          "pr_auc": 0.1926809902368849,
+          "transition_auc": 0.68,
+          "sign_flipped": true
+        },
+        "rk_turnover": {
+          "roc_auc": 0.6378654385262315,
+          "pr_auc": 0.17781879817019108,
+          "transition_auc": 0.6708333333333333,
+          "sign_flipped": true
+        }
+      }
+    },
+    {
+      "fold": 5,
+      "n_test": 521,
+      "low_friction_fraction": 0.0,
+      "orientable": true,
+      "signals": {
+        "psi": {
+          "roc_auc": 0.947851481017939,
+          "pr_auc": 0.8843729157687339,
+          "transition_auc": 0.9214285714285714,
+          "sign_flipped": false
+        },
+        "fdt": {
+          "roc_auc": 0.9518564872757613,
+          "pr_auc": 0.8827296210994794,
+          "transition_auc": 0.7928571428571428,
+          "sign_flipped": false
+        },
+        "rk_crude": {
+          "roc_auc": 0.9928243637880684,
+          "pr_auc": 0.9623962010011409,
+          "transition_auc": 1.0,
+          "sign_flipped": true
+        },
+        "rk_spatial": {
+          "roc_auc": 0.9926992073425115,
+          "pr_auc": 0.9624289410819564,
+          "transition_auc": 1.0,
+          "sign_flipped": true
+        },
+        "rk_energy": {
+          "roc_auc": 0.9929078014184397,
+          "pr_auc": 0.9622378388842775,
+          "transition_auc": 1.0,
+          "sign_flipped": true
+        },
+        "rk_turnover": {
+          "roc_auc": 0.984793491864831,
+          "pr_auc": 0.8225039973491521,
+          "transition_auc": 1.0,
+          "sign_flipped": true
+        },
+        "ens_psi_fdt": {
+          "roc_auc": 0.9522110972048393,
+          "pr_auc": 0.8948395449593224,
+          "transition_auc": 0.8757142857142857,
+          "sign_flipped": false
+        },
+        "ens_psi_rk": {
+          "roc_auc": 0.9731956612432207,
+          "pr_auc": 0.9115816104057771,
+          "transition_auc": 0.9892857142857142,
+          "sign_flipped": false
+        },
+        "ens_all3": {
+          "roc_auc": 0.9784105131414267,
+          "pr_auc": 0.9096994453872896,
+          "transition_auc": 0.9764285714285713,
+          "sign_flipped": false
+        }
+      }
+    },
+    {
+      "fold": 6,
+      "n_test": 520,
+      "low_friction_fraction": 0.032692307692307694,
+      "orientable": true,
+      "signals": {
+        "psi": {
+          "roc_auc": 0.8694167280519653,
+          "pr_auc": 0.7804711723641928,
+          "transition_auc": 0.9133333333333333,
+          "sign_flipped": false
+        },
+        "fdt": {
+          "roc_auc": 0.5186946137190562,
+          "pr_auc": 0.2158362998153312,
+          "transition_auc": 0.3341666666666666,
+          "sign_flipped": true
+        },
+        "rk_crude": {
+          "roc_auc": 0.8777651286859082,
+          "pr_auc": 0.8056554992070011,
+          "transition_auc": 0.6991666666666666,
+          "sign_flipped": true
+        },
+        "rk_spatial": {
+          "roc_auc": 0.8806446572468135,
+          "pr_auc": 0.808582114125462,
+          "transition_auc": 0.7441666666666666,
+          "sign_flipped": true
+        },
+        "rk_energy": {
+          "roc_auc": 0.9419183463916605,
+          "pr_auc": 0.8742801775794988,
+          "transition_auc": 0.8025,
+          "sign_flipped": true
+        },
+        "rk_turnover": {
+          "roc_auc": 0.8823411236857965,
+          "pr_auc": 0.8106818162491234,
+          "transition_auc": 0.7491666666666666,
+          "sign_flipped": true
+        },
+        "ens_psi_fdt": {
+          "roc_auc": 0.7225161275921339,
+          "pr_auc": 0.47150671302547825,
+          "transition_auc": 0.8420833333333334,
+          "sign_flipped": false
+        },
+        "ens_psi_rk": {
+          "roc_auc": 0.9457465568427866,
+          "pr_auc": 0.8660813887664188,
+          "transition_auc": 0.8366666666666667,
+          "sign_flipped": false
+        },
+        "ens_all3": {
+          "roc_auc": 0.8929998437465122,
+          "pr_auc": 0.777068651525068,
+          "transition_auc": 0.845,
+          "sign_flipped": false
+        }
+      }
+    }
+  ]
+}
