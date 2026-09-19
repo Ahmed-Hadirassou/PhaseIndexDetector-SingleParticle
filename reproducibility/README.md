@@ -65,6 +65,17 @@ Chaque script écrit dans `results/<nom>.json` après chaque pli (ou chaque
 branche pour les plus anciens). Les données de prix sont téléchargées par
 `yfinance` au lancement.
 
+## Sur les figures
+
+Seules les figures 10 à 17 sont référencées par le papier (§6 à §9, l'audit
+et le programme d'ablations) ; le dossier ne contient qu'elles. Des figures
+numérotées 01 à 09 existent aussi à la racine du dépôt, dans
+`results/figures/` : ce sont des diagnostics du pipeline principal
+(`main_v304_soft_labels.py`), rattachés à `results/run_history.json` qui
+suit l'évolution du modèle de version en version (V30.3, V30.4, ...). Elles
+n'ont rien à voir avec ce dossier et ne doivent pas être confondues avec les
+figures du papier.
+
 ## Ce qui n'est pas reproductible au bit près
 
 L'entraînement est stochastique ; les cinq graines (42, 123, 456, 789, 1011)
